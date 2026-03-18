@@ -1,0 +1,18 @@
+SET FOREIGN_KEY_CHECKS = 0;
+
+TRUNCATE TABLE bets;
+TRUNCATE TABLE balance_movements;
+TRUNCATE TABLE participants;
+TRUNCATE TABLE rounds;
+TRUNCATE TABLE sessions;
+TRUNCATE TABLE tournaments;
+TRUNCATE TABLE financial_documents;
+TRUNCATE TABLE game_types;
+
+TRUNCATE TABLE players;
+TRUNCATE TABLE moderators;
+TRUNCATE TABLE managers;
+TRUNCATE TABLE admins;
+TRUNCATE TABLE users;
+
+SET FOREIGN_KEY_CHECKS = 1;

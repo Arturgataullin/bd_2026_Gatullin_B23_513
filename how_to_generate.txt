@@ -1,0 +1,2 @@
+pip install faker (если нет)
+python generator.py -> получаем generated_test_data.sql (набор insert запросов) -> выполняем их в созданной бд
